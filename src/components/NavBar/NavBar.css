@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ab0370;
+    padding: 10px 0;
+  }
+  
+  .nav-link {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link span {
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  .nav-link:hover {
+    color: #61dafb; /* Cor de hover */
+  }
